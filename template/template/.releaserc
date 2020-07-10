@@ -1,0 +1,31 @@
+{
+  branches: [
+    "master", 
+    {name: "develop", prerelease: true}
+    {name: "alpha", prerelease: true}
+  ],
+  plugins: [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator", 
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md",
+    }],
+    ["@google/semantic-release-replace-plugin", {
+      "replacements": [
+        {
+          "files": ["Makefile"],
+          "from": "VERSION := .*",
+          "to": "VERSION := ${nextRelease.version}",
+          "countMatches": true
+        }
+      ]
+    }],
+    ["@semantic-release/git", {
+      "assets": [
+        "CHANGELOG.md",
+        "Makefile"
+      ],
+    }],
+    "@semantic-release/github"
+  ]
+}
