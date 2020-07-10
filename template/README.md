@@ -1,10 +1,10 @@
 <center>
 
-## 🔳 `mirror-template`
+## 🔳 `{{ Project }}`
 ### A mirror template, for a mirror template (we need to go deeper)
 
-[![LICENSE](https://img.shields.io/github/license/lunaris-studios/mirror-template.svg)](https://github.com/lunaris-studios/mirror-template/blob/master/LICENSE)
-[![Releases](https://img.shields.io/github/release-pre/lunaris-studios/mirror-template.svg)](https://github.com/lunaris-studios/mirror-template/releases)
+[![LICENSE](https://img.shields.io/github/license/{{ Organization }}/{{ Project }}.svg)](https://github.com/{{ Organization }}/{{ Project }}/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/release-pre/{{ Organization }}/{{ Project }}.svg)](https://github.com/{{ Organization }}/{{ Project }}/releases)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 </center>
@@ -34,7 +34,7 @@
 ## Installation
 
 ```shell
-mirror download lunaris-studios/mirror-template template  
+mirror download {{ Organization }}/{{ Project }} template  
 ```
 
 <!-- ----------------------------------------------------------------- -->
@@ -51,5 +51,5 @@ mirror use <output-directory>
 <a name="contributing"></a>
 ## Contributing
 
-`mirror-template` is an open source project and we are very happy to accept community contributions. Please refer to [Contributing to mirror-template](./CONTRIBUTING.md) for more details.
+`{{ Project }}` is an open source project and we are very happy to accept community contributions. Please refer to [Contributing to {{ Project }}](./CONTRIBUTING.md) for more details.
 

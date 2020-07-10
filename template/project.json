@@ -1,0 +1,14 @@
+{
+  "Project": "{{ Project }}",
+  "Organization": "{{ Organization }}",
+  "Owner": "{{ Owner }}",
+  "Author": "{{ Author }}",
+  "AuthorEmail": "{{ AuthorEmail }}",
+  "Description": "{{ Description }}",
+  "Year": "{{ Year }}",
+  "License": [
+    "MIT",
+    "Apache Software License 2.0",
+    "GNU GPL v3.0"
+  ]
+}

@@ -1,9 +1,14 @@
 {
-  "Author": "John Doe",
+  "Project": "mirror-template",
+  "Organization": "lunaris-studios",
+  "Owner": "Lunaris Studios, LLC.",
+  "Author": "Sam Craig",
+  "AuthorEmail": "sam@lunaris.io",
+  "Description": "A mirror template, for a mirror template.",
   "Year": "2020",
   "License": [
-      "Apache Software License 2.0",
-      "MIT",
-      "GNU GPL v3.0"
+    "MIT",
+    "Apache Software License 2.0",
+    "GNU GPL v3.0"
   ]
 }

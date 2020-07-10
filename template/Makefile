@@ -1,7 +1,7 @@
 # MAKEFILE
 #
-# @author      Sam Craig <sam@lunaris.io>
-# @link        https://github.com/lunaris-studios/mirror-template
+# @author      {{ Author }} <{{ AuthorEmail }}>
+# @link        https://github.com/{{ Organization }}/{{ Project }}
 # ------------------------------------------------------------------------------
 
 .EXPORT_ALL_VARIABLES:
@@ -22,16 +22,16 @@ help:
 # === Entities ===
 
 # URL of the remote repository
-REPOSITORY := https://github.com/lunaris-studios/mirror-template
+REPOSITORY := https://github.com/{{ Organization }}/{{ Project }}
 
 # Project owner
-OWNER := lunaris-studios
+OWNER := {{ Organization }}
 
 # Project name
-PROJECT := mirror-template
+PROJECT := {{ Project }}
 
 # Project version
-VERSION := 1.0.1
+VERSION := 0.0.0
 
 # === Shell Configuration ===
 
