@@ -31,7 +31,7 @@ OWNER := lunaris-studios
 PROJECT := mirror-template
 
 # Project version
-VERSION := 1.0.2-develop.1
+VERSION := 1.0.2
 
 # === Shell Configuration ===
 
